@@ -82,16 +82,12 @@ ol {
   margin-bottom: 30px;
 }
 
-.content__list-item:focus {
-  outline: none;
-}
-
 /* Добавлен фокус для карточек */
 .content__list-item:has(:focus-visible) {
   border: 1px solid #FFF;
 }
 
-.content__list-item:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
